@@ -1,0 +1,6 @@
+framework module Pods_SmartFitUITests {
+  umbrella header "Pods-SmartFitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
