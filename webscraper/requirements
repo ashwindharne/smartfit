@@ -1,2 +1,8 @@
+numpy
+opencv-python
+selenium
+ChromeDriver
+requests
+bs4
 firebase_admin
 flask
