@@ -12,14 +12,17 @@ from firebase import firebase
 
 
 
-def main():
-    scrape('https://www.farfetch.com/shopping/women/alexander-wang-cult-straight-leg-jeans-item-12810274.aspx?storeid=10168')
 
 def scrape(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content.decode('utf-8'), 'html.parser')
     for item in soup.find_all(itemprop='brand'):
         print(item.text)
+
+
+    recommendationsSoup=soup.find(id="tabs-recommendations")
+    links=recommendationsSoup.find_all('a')
+    print(links)
 
 def avgColor(url):
     print('avg')
@@ -28,6 +31,9 @@ def avgColor(url):
         with open('temp/img.jpeg', 'wb') as image:
             image.write(resp.content)
 
+
+def main():
+    scrape('https://www.farfetch.com/shopping/women/alexander-wang-cult-straight-leg-jeans-item-12810274.aspx?storeid=10168')
 
 if __name__ == '__main__':
     main()
