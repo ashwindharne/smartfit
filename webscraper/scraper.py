@@ -20,23 +20,32 @@ firebase_admin.initialize_app(cred,options={
 
 
 def scrape(url):
+    propDict = {}
     page = requests.get(url)
     soup = BeautifulSoup(page.content.decode('utf-8'), 'html.parser')
 
     brand = soup.find(itemprop='brand').text
-    print(brand)
-    name = soup.find(itemprop='name').text.lstrip()
-    print(name)
+    propDict['brand'] = brand
+    name = soup.find(itemprop='name').text.lstrip().rstrip()
+    propDict['name']=name
     price = soup.find(itemprop='price')['content']
-    print(price)
+    propDict['price']=price
     images = soup.find_all(itemprop='image', alt=True)
     for img in images:
         if 'cdn-images' in img.prettify() and 'data-large' in img.prettify():
             image=img['data-large']
             break
-    print(image)
-    composition = soup.find_all('dt')
-    print(composition)
+    propDict['image']=image
+    dd = soup.find_all("dd")
+    composition=[]
+    for d in dd:
+        if '%' in d.text:
+            composition.append(d.text)
+    propDict['composition']=composition
+    description = soup.find('p', itemprop="description").text
+    propDict['description']=description
+    print(propDict)
+    return propDict
 
 
 def main():
