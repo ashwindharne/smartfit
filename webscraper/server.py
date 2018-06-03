@@ -31,7 +31,8 @@ def recommend(id):
     recommendedItems = {
         '2':root.child('denim').child(str(2)).get(),
         '23':root.child('denim').child(str(3)).get(),
-        '3':root.child('denim').child(str(4)).get()
+        '3':root.child('denim').child(str(4)).get(),
+        '21':root.child('denim').child(str(5)).get()
     }
 
     return jsonify(recommendedItems)
