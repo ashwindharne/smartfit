@@ -1,0 +1,617 @@
+1528174230921	geckodriver	INFO	geckodriver 0.20.1
+1528174230937	geckodriver	INFO	Listening on 127.0.0.1:55960
+1528174231464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6Gw1rAvR9z35"
+process 16128: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174236764	Marionette	INFO	Listening on port 55967
+1528174236915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528174325301	geckodriver	INFO	geckodriver 0.20.1
+1528174325307	geckodriver	INFO	Listening on 127.0.0.1:56253
+1528174325824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QMTIHE8TKP2d"
+process 16353: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174328374	Marionette	INFO	Listening on port 56259
+1528174328549	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528174341509	geckodriver	INFO	geckodriver 0.20.1
+1528174341514	geckodriver	INFO	Listening on 127.0.0.1:56310
+1528174342031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7BlxUXpPXA3n"
+process 16553: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174344206	Marionette	INFO	Listening on port 56316
+1528174344286	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528174398957	geckodriver	INFO	geckodriver 0.20.1
+1528174398962	geckodriver	INFO	Listening on 127.0.0.1:56687
+1528174399480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mJHyofhjLNNK"
+process 16781: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174401736	Marionette	INFO	Listening on port 56693
+1528174402240	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528174421245	geckodriver	INFO	geckodriver 0.20.1
+1528174421250	geckodriver	INFO	Listening on 127.0.0.1:56829
+1528174421792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4a2cQilxuPQ1"
+process 17004: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174424177	Marionette	INFO	Listening on port 56838
+1528174424525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528174463909	geckodriver	INFO	geckodriver 0.20.1
+1528174463914	geckodriver	INFO	Listening on 127.0.0.1:57007
+1528174464436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fmveDOYiZe22"
+process 17235: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174466599	Marionette	INFO	Listening on port 57013
+1528174466666	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528174609727	geckodriver	INFO	geckodriver 0.20.1
+1528174609732	geckodriver	INFO	Listening on 127.0.0.1:57580
+1528174610263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VmdUMgDru5LA"
+process 17473: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174612384	Marionette	INFO	Listening on port 57587
+1528174612512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://d3c3cq33003psk.cloudfront.net/opentag-33446-1640858.js line 92 > eval, line 11: ReferenceError: bk_addPageCtx is not defined
+1528174853613	geckodriver	INFO	geckodriver 0.20.1
+1528174853618	geckodriver	INFO	Listening on 127.0.0.1:58543
+1528174854143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LjBF6yAPcwlE"
+process 17716: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174856289	Marionette	INFO	Listening on port 58550
+1528174856361	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528174995470	geckodriver	INFO	geckodriver 0.20.1
+1528174995475	geckodriver	INFO	Listening on 127.0.0.1:59287
+1528174996008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.F0I5COCN7jRY"
+process 17964: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528174998198	Marionette	INFO	Listening on port 59294
+1528174998277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528175011701	geckodriver	INFO	geckodriver 0.20.1
+1528175011706	geckodriver	INFO	Listening on 127.0.0.1:59390
+1528175012240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.l1D2mp01lsNe"
+process 18164: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528175014431	Marionette	INFO	Listening on port 59395
+1528175014479	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18256, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1528177163581	geckodriver	INFO	geckodriver 0.20.1
+1528177163587	geckodriver	INFO	Listening on 127.0.0.1:63887
+1528177164157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nMuQurVk8rIN"
+process 18521: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177167379	Marionette	INFO	Listening on port 63892
+1528177167532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177192260	geckodriver	INFO	geckodriver 0.20.1
+1528177192266	geckodriver	INFO	Listening on 127.0.0.1:63977
+1528177192829	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RZGVKEPuasVo"
+process 18729: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177196174	Marionette	INFO	Listening on port 63982
+1528177196658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177234802	geckodriver	INFO	geckodriver 0.20.1
+1528177234809	geckodriver	INFO	Listening on 127.0.0.1:64106
+1528177235392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yzNRYgaEWhEG"
+process 18927: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177238573	Marionette	INFO	Listening on port 64113
+1528177238626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177284181	geckodriver	INFO	geckodriver 0.20.1
+1528177284187	geckodriver	INFO	Listening on 127.0.0.1:64238
+1528177284749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rrpijK4PaMMe"
+process 19129: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177288437	Marionette	INFO	Listening on port 64243
+1528177288604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177360717	geckodriver	INFO	geckodriver 0.20.1
+1528177360722	geckodriver	INFO	Listening on 127.0.0.1:64462
+1528177361267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nhV6bzGUNnXt"
+process 19336: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177364304	Marionette	INFO	Listening on port 64468
+1528177364520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177388933	geckodriver	INFO	geckodriver 0.20.1
+1528177388939	geckodriver	INFO	Listening on 127.0.0.1:64536
+1528177389509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dYTWeJb4lsbp"
+process 19548: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177392649	Marionette	INFO	Listening on port 64541
+1528177392755	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19548, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528177406327	geckodriver	INFO	geckodriver 0.20.1
+1528177406334	geckodriver	INFO	Listening on 127.0.0.1:64609
+1528177406895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IYMVmyRc8Tr1"
+process 19752: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177410185	Marionette	INFO	Listening on port 64616
+1528177410347	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18927, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19336, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19129, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 18729, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 17964, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19336, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 18729, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 18521, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+JavaScript error: https://www.farfetch.com/shopping/women/frame-denim-classic-skinny-fit-jeans-item-12818474.aspx, line 37: NS_ERROR_NOT_INITIALIZED: 
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19752, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1528177495167	geckodriver	INFO	geckodriver 0.20.1
+1528177495174	geckodriver	INFO	Listening on 127.0.0.1:65038
+1528177495721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LKrxQBQfkd2K"
+process 20031: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177498656	Marionette	INFO	Listening on port 65044
+1528177498988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177660744	geckodriver	INFO	geckodriver 0.20.1
+1528177660750	geckodriver	INFO	Listening on 127.0.0.1:49168
+1528177661286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ht5oYPDvGkkf"
+process 20281: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177663996	Marionette	INFO	Listening on port 49175
+1528177664055	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177715514	geckodriver	INFO	geckodriver 0.20.1
+1528177715520	geckodriver	INFO	Listening on 127.0.0.1:49451
+1528177716058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.cfBLoaCxiwyu"
+1528177761248	geckodriver	INFO	geckodriver 0.20.1
+1528177761254	geckodriver	INFO	Listening on 127.0.0.1:49584
+1528177773311	geckodriver	INFO	geckodriver 0.20.1
+1528177773318	geckodriver	INFO	Listening on 127.0.0.1:49625
+1528177773888	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oZhA4PIS8OEV"
+process 20590: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177776829	Marionette	INFO	Listening on port 49631
+1528177777137	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20281, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 20031, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 20031, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528177823469	geckodriver	INFO	geckodriver 0.20.1
+1528177823475	geckodriver	INFO	Listening on 127.0.0.1:49902
+1528177824050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SfiawSGgcpId"
+process 20837: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177826950	Marionette	INFO	Listening on port 49908
+1528177827280	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528177852036	geckodriver	INFO	geckodriver 0.20.1
+1528177852042	geckodriver	INFO	Listening on 127.0.0.1:50000
+1528177852609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sAmjn6zkqeQl"
+process 21034: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177855966	Marionette	INFO	Listening on port 50005
+1528177856431	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528177903607	geckodriver	INFO	geckodriver 0.20.1
+1528177903613	geckodriver	INFO	Listening on 127.0.0.1:50244
+1528177904180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3Rk9vax3vy0s"
+process 21263: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528177907030	Marionette	INFO	Listening on port 50251
+1528177907432	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21263, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 21263, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 21263, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 21263, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 21263, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+1528178014774	geckodriver	INFO	geckodriver 0.20.1
+1528178014780	geckodriver	INFO	Listening on 127.0.0.1:50766
+1528178015341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fFHjf9SRrQFZ"
+process 21508: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528178018147	Marionette	INFO	Listening on port 50772
+1528178018575	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21508, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528178095994	geckodriver	INFO	geckodriver 0.20.1
+1528178096001	geckodriver	INFO	Listening on 127.0.0.1:51114
+1528178096554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fSXv6aggSW5x"
+process 21748: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528178099632	Marionette	INFO	Listening on port 51121
+1528178099794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528178290360	geckodriver	INFO	geckodriver 0.20.1
+1528178290368	geckodriver	INFO	Listening on 127.0.0.1:51621
+1528178290940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rFI7GJMIWY5z"
+process 22025: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528178295391	Marionette	INFO	Listening on port 51628
+1528178295864	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x550027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1528179265697	geckodriver	INFO	geckodriver 0.20.1
+1528179265702	geckodriver	INFO	Listening on 127.0.0.1:54805
+1528179266219	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NG8UIxsQcPNy"
+process 22405: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179268346	Marionette	INFO	Listening on port 54811
+1528179268446	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528179299121	geckodriver	INFO	geckodriver 0.20.1
+1528179299126	geckodriver	INFO	Listening on 127.0.0.1:55095
+1528179299642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.J4BsBYFLc9HJ"
+process 22630: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179301758	Marionette	INFO	Listening on port 55102
+1528179301889	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528179356808	geckodriver	INFO	geckodriver 0.20.1
+1528179356813	geckodriver	INFO	Listening on 127.0.0.1:55437
+1528179357329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.94EvnkWl4pXQ"
+process 22890: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179359336	Marionette	INFO	Listening on port 55444
+1528179359478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528179404149	geckodriver	INFO	geckodriver 0.20.1
+1528179404154	geckodriver	INFO	Listening on 127.0.0.1:55679
+1528179404671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YbdRWbUADuZ7"
+process 23119: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179406760	Marionette	INFO	Listening on port 55687
+1528179406848	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528179499110	geckodriver	INFO	geckodriver 0.20.1
+1528179499115	geckodriver	INFO	Listening on 127.0.0.1:56149
+1528179499638	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GesKk6wL9L0T"
+process 23358: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179501809	Marionette	INFO	Listening on port 56155
+1528179501900	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528179543187	geckodriver	INFO	geckodriver 0.20.1
+1528179543193	geckodriver	INFO	Listening on 127.0.0.1:56490
+1528179543713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TgXoR5osQb5r"
+process 23575: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179545860	Marionette	INFO	Listening on port 56497
+1528179545927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528179595216	geckodriver	INFO	geckodriver 0.20.1
+1528179595221	geckodriver	INFO	Listening on 127.0.0.1:56889
+1528179595745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YfjONd4woIeN"
+process 23804: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179598214	Marionette	INFO	Listening on port 56896
+1528179598503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528179656685	geckodriver	INFO	geckodriver 0.20.1
+1528179656690	geckodriver	INFO	Listening on 127.0.0.1:57280
+1528179657215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.K5jetQCDxJym"
+process 24046: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179659500	Marionette	INFO	Listening on port 57290
+1528179659936	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 23575, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 23358, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 24046, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1528179676185	geckodriver	INFO	geckodriver 0.20.1
+1528179676190	geckodriver	INFO	Listening on 127.0.0.1:57427
+1528179676712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sEYz85NCOj4q"
+process 24289: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179678869	Marionette	INFO	Listening on port 57435
+1528179678934	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528179729975	geckodriver	INFO	geckodriver 0.20.1
+1528179729980	geckodriver	INFO	Listening on 127.0.0.1:57761
+1528179730502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ocfSFDM4KKN4"
+process 24538: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179732779	Marionette	INFO	Listening on port 57768
+1528179733241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528179756770	geckodriver	INFO	geckodriver 0.20.1
+1528179756775	geckodriver	INFO	Listening on 127.0.0.1:58027
+1528179757304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.h5KS6qktapW7"
+process 24751: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179759381	Marionette	INFO	Listening on port 58034
+1528179759414	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528179800315	geckodriver	INFO	geckodriver 0.20.1
+1528179800320	geckodriver	INFO	Listening on 127.0.0.1:58374
+1528179800840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RWm5x88xZK80"
+process 24988: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179802888	Marionette	INFO	Listening on port 58380
+1528179802995	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528179840776	geckodriver	INFO	geckodriver 0.20.1
+1528179840781	geckodriver	INFO	Listening on 127.0.0.1:58642
+1528179841300	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lu0jBYL24MhM"
+process 25236: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179843415	Marionette	INFO	Listening on port 58649
+1528179843522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528179952687	geckodriver	INFO	geckodriver 0.20.1
+1528179952692	geckodriver	INFO	Listening on 127.0.0.1:59190
+1528179953216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.foS6dIVCoqYK"
+process 25488: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528179955296	Marionette	INFO	Listening on port 59199
+1528179955386	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x550027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1528180054040	geckodriver	INFO	geckodriver 0.20.1
+1528180054045	geckodriver	INFO	Listening on 127.0.0.1:59900
+1528180054570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.tvF2wEb35GGf"
+process 25741: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528180056776	Marionette	INFO	Listening on port 59914
+1528180056783	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528251559016	geckodriver	INFO	geckodriver 0.20.1
+1528251559038	geckodriver	INFO	Listening on 127.0.0.1:50681
+1528251559534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NnwRYcdyrmIT"
+process 26122: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528251564844	Marionette	INFO	Listening on port 50689
+1528251564988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528251576084	geckodriver	INFO	geckodriver 0.20.1
+1528251576091	geckodriver	INFO	Listening on 127.0.0.1:50825
+1528251576606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.l1MaHtbDjhlY"
+process 26330: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528251578698	Marionette	INFO	Listening on port 50835
+1528251578741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528251623664	geckodriver	INFO	geckodriver 0.20.1
+1528251623670	geckodriver	INFO	Listening on 127.0.0.1:51320
+1528251624183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2wNal29I3o5z"
+process 26539: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528251626348	Marionette	INFO	Listening on port 51332
+1528251626420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528251793855	geckodriver	INFO	geckodriver 0.20.1
+1528251793860	geckodriver	INFO	Listening on 127.0.0.1:52724
+1528251794381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.et7luTtotUr1"
+process 26836: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528251796773	Marionette	INFO	Listening on port 52732
+1528251797117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528251905043	geckodriver	INFO	geckodriver 0.20.1
+1528251905048	geckodriver	INFO	Listening on 127.0.0.1:53588
+1528251905571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.po5JPHnEKF2S"
+process 27047: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528251907906	Marionette	INFO	Listening on port 53598
+1528251908382	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 26330, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 26539, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 26539, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 27047, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528251919605	geckodriver	INFO	geckodriver 0.20.1
+1528251919610	geckodriver	INFO	Listening on 127.0.0.1:53730
+1528251920133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.drmwnbg9U3U7"
+process 27286: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528251922262	Marionette	INFO	Listening on port 53740
+1528251922379	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 27286, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1528252057174	geckodriver	INFO	geckodriver 0.20.1
+1528252057179	geckodriver	INFO	Listening on 127.0.0.1:54857
+1528252057701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IbBH9ZruSo0x"
+process 27526: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252059799	Marionette	INFO	Listening on port 54864
+1528252059822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528252132790	geckodriver	INFO	geckodriver 0.20.1
+1528252132795	geckodriver	INFO	Listening on 127.0.0.1:55572
+1528252133320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ApX2KktTtyKS"
+process 27789: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252135631	Marionette	INFO	Listening on port 55579
+1528252136068	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528252168223	geckodriver	INFO	geckodriver 0.20.1
+1528252168228	geckodriver	INFO	Listening on 127.0.0.1:55981
+1528252168746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aMO6knC3qwbt"
+process 28017: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252171014	Marionette	INFO	Listening on port 55989
+1528252172388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528252377007	geckodriver	INFO	geckodriver 0.20.1
+1528252377012	geckodriver	INFO	Listening on 127.0.0.1:57859
+1528252398991	geckodriver	INFO	geckodriver 0.20.1
+1528252399002	geckodriver	INFO	Listening on 127.0.0.1:58062
+1528252399511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zwVKZ66hyoak"
+process 28331: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252402516	Marionette	INFO	Listening on port 58072
+1528252402788	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528252478031	geckodriver	INFO	geckodriver 0.20.1
+1528252478036	geckodriver	INFO	Listening on 127.0.0.1:58649
+1528252478563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.roY9wS8DNr49"
+process 28538: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252480840	Marionette	INFO	Listening on port 58661
+1528252481297	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528252522081	geckodriver	INFO	geckodriver 0.20.1
+1528252522086	geckodriver	INFO	Listening on 127.0.0.1:58988
+1528252522609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GRXpykixOswL"
+process 28744: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252524843	Marionette	INFO	Listening on port 58997
+1528252525340	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528252562370	geckodriver	INFO	geckodriver 0.20.1
+1528252562375	geckodriver	INFO	Listening on 127.0.0.1:59297
+1528252562893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nPHNpssnXJdx"
+process 28951: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252565227	Marionette	INFO	Listening on port 59309
+1528252565619	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528252645434	geckodriver	INFO	geckodriver 0.20.1
+1528252645439	geckodriver	INFO	Listening on 127.0.0.1:59940
+1528252645953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OsTuaGoPZYuE"
+process 29153: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252648157	Marionette	INFO	Listening on port 59950
+1528252648191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528252706819	geckodriver	INFO	geckodriver 0.20.1
+1528252706824	geckodriver	INFO	Listening on 127.0.0.1:60404
+1528252707347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7ESYCv5OJqsy"
+process 29342: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252709528	Marionette	INFO	Listening on port 60414
+1528252709634	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Parent 29342, Compositor] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFFB,name=SHMEM_CREATED_MESSAGE) Channel error: cannot send/recv
+
+[Child 29426, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x290035,name=PCompositorBridge::Msg_PTextureConstructor) Channel error: cannot send/recv
+
+[Child 29426, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+IPDL protocol error: constructor for actor failed
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2D0022,name=PContent::Msg_DataStoragePut) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16007F,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1528252935831	geckodriver	INFO	geckodriver 0.20.1
+1528252935836	geckodriver	INFO	Listening on 127.0.0.1:62533
+1528252936358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Cq7xC7etR8nj"
+process 29621: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528252938892	Marionette	INFO	Listening on port 62541
+1528252939090	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528253263949	geckodriver	INFO	geckodriver 0.20.1
+1528253263954	geckodriver	INFO	Listening on 127.0.0.1:64872
+1528253264467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ym7kP7BuOeTJ"
+process 29850: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528253266595	Marionette	INFO	Listening on port 64880
+1528253266727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528253339107	geckodriver	INFO	geckodriver 0.20.1
+1528253339113	geckodriver	INFO	Listening on 127.0.0.1:49228
+1528253339633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5FWJuHHnpNbW"
+process 30113: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528253341895	Marionette	INFO	Listening on port 49237
+1528253342353	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 29850, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 29850, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 74: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1528253847976	geckodriver	INFO	geckodriver 0.20.1
+1528253847982	geckodriver	INFO	Listening on 127.0.0.1:53503
+1528253848501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TFam7IprDPhd"
+process 30471: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528253850642	Marionette	INFO	Listening on port 53510
+1528253850717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://secureaud.solocpm.com/v2/DirectNewRtg.aspx?rnd=11855&pdt_id=12301853&pdt_sku=12301853&pdt_name=721%20high%20rise%20skinny%20jeans&pdt_price=90&pdt_amount=90&pdt_currency=usd&pdt_photo=https%3A%2F%2Fcdn-images.farfetch-contents.com%2F12%2F30%2F18%2F53%2F12301853_10966717_80.jpg&pdt_instock=1&pdt_category_list=clothing&pdt_smalldescription=blue%20721%20high%20rise%20skinny%20jeans%20from%20levi%27s.%20&pagetype=product&key=dir&token=farfetch_glb&layer=script&t=1, line 1: SyntaxError: missing ) after argument list
