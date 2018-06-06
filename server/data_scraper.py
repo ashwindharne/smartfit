@@ -66,7 +66,7 @@ def scrape_item(url):
     for x in range(len(sizeDescriptions)):
         propDict['sizes'].append(sizeDescriptions[x].text)
 
-    image = soup.find('img',class_='slick-img loaded', alt=True)
+    image = soup.find_all('img',class_='slick-img loaded', alt=True)[1]
     propDict['image']=image['src']
     dd = soup.find_all("dd")
     propDict['composition'] = {}
@@ -115,7 +115,6 @@ def add_items_to_db():
         to_visit = set({starting_url})
     #else, add on to current items 
     else:
-        pprint.pprint(previous_dict)
         for obj in previous_dict:
             visited.add(obj['url'])
             if('recommendationUrls' not in obj):
