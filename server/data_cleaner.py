@@ -61,9 +61,6 @@ def inflate_recommendations(url_mapper):
                 #if ID of rec's rec is not itself
                 if(rec!=str(url_mapper[obj['url']])):
                     recommendations_new.append(rec)
-            if(len(recommendations_new)>=50):
-                # enough recommendations
-                 break 
         #use set to avoid dups, convert to list to make it serializable
         obj['recommendations'] = list(OrderedDict.fromkeys(recommendations_new))
     db.reference('women').child('denim_clean').set(data_dict)

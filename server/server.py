@@ -53,7 +53,7 @@ def cleanUp(item):
     if('recommendationUrls' in item):
        del item['recommendationUrls']
 
-@app.route('/item/<string:identitystr>')
+@app.route('/recommend/<string:identitystr>', methods=['GET'])
 def recommend(identitystr):
     global root
     #size is integrated as last three digits of ID
@@ -96,6 +96,9 @@ def recommend(identitystr):
         sizes = [size+1, size+2]
     recommendations = filter_size(recommendations, sizes)
 
+    if tooBig and tooSmall and not tooPricey and not pricey and not color and not similar:
+        return 'Error: must have at least one parameter set to true!'
+        
     #include current info too
     currItem['size'] = size
     recommendations['current'] = currItem
@@ -115,13 +118,13 @@ def get_fitting_items():
         room = fitting_root.child(str(room_number)).get()
         if(room == None):
             continue 
-        room_data = []
+        room_data = {}
         for identitystr in room: 
             ID, size = get_ID_and_size(identitystr)
             item = root.child(ID).get()
             item['size'] = size
             cleanUp(item)
-            room_data.append(item)
+            room_data[identitystr] = item
         data_collected[str(room_number)] = room_data 
     return jsonify(data_collected)  
 

@@ -4175,3 +4175,86 @@ process 2085: D-Bus library appears to be incorrectly set up; failed to read mac
 See the manual page for dbus-uuidgen to correct this issue.
 1528315563798	Marionette	INFO	Listening on port 58175
 1528315563992	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 74: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1528316063954	geckodriver	INFO	geckodriver 0.20.1
+1528316063958	geckodriver	INFO	Listening on 127.0.0.1:59657
+1528316064477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Il4YR0aCW2Ng"
+process 2499: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528316066625	Marionette	INFO	Listening on port 59663
+1528316066657	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528316073995	geckodriver	INFO	geckodriver 0.20.1
+1528316074000	geckodriver	INFO	Listening on 127.0.0.1:59702
+1528316074533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Na9sq0OA6MY9"
+process 2720: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528316077478	Marionette	INFO	Listening on port 59707
+1528316077807	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528316412120	geckodriver	INFO	geckodriver 0.20.1
+1528316412124	geckodriver	INFO	Listening on 127.0.0.1:60639
+1528316412648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lCuAOtuvnCMS"
+process 3028: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528316414640	Marionette	INFO	Listening on port 60644
+1528316414803	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.res-x.com/ws/r2/Resonance.aspx?appid=Farfetch01&tk=462002544919129&ss=168008256642649&sg=1&pg=958602335863687&vr=4.2x&bx=true&sc=product_rr&sc=&ev=product&ei=12223590&cu=&no=10;&countryid=216&genderid=249&categoryid=135967&storeid=9610&designername=J+Brand&department=Luxe&ur=https%3A//www.farfetch.com/shopping/women/j-brand-distressed-skinny-jeans-item-12223590.aspx&plk=&rf=&jsonp=jQuery110209547950754182362_1528316421592&_=1528316421593, line 1: TypeError: jQuery110209547950754182362_1528316421592 is not a function
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1528335481974	geckodriver	INFO	geckodriver 0.20.1
+1528335481994	geckodriver	INFO	Listening on 127.0.0.1:55646
+1528335482497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gSCbDC5Szu1n"
+process 5867: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528335487193	Marionette	INFO	Listening on port 55652
+1528335487471	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5973, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-HRdYIa/firefox-61.0~b10+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1528336027580	geckodriver	INFO	geckodriver 0.20.1
+1528336027584	geckodriver	INFO	Listening on 127.0.0.1:56544
+1528336028105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wnt2Ualubye4"
+process 6162: D-Bus library appears to be incorrectly set up; failed to read machine uuid: UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text
+See the manual page for dbus-uuidgen to correct this issue.
+1528336030638	Marionette	INFO	Listening on port 56549
+1528336030905	Marionette	WARN	TLS certificate errors will be ignored for this session
