@@ -59,7 +59,7 @@ def recommend(identitystr):
     #size is integrated as last three digits of ID
     #last three digits is size, beginning is ID
     #example: 1032
-    max_recommendations = 9
+    max_recommendations = 6
 
     ID, size = get_ID_and_size(identitystr)
     currItem = root.child(ID).get()
