@@ -5,6 +5,7 @@ import flask
 from flask import request
 from flask import jsonify
 import pprint
+import copy
 
 app = flask.Flask(__name__)
 cred = credentials.Certificate("credentials/credentials.json")
@@ -22,25 +23,26 @@ def get_ID_and_size(identitystr):
     return ID, size
 
 def filter_price(recommendations,max_price):
-    new_recommendations = {}
+    new_recommendations = []
     #get first size for now
-    for key, item in recommendations.items():
+    for item in recommendations:
         price = int(item['price'])
         #remove if too expensive
         if price < max_price:
-            new_recommendations[key] = item 
+            new_recommendations.append(item) 
     return new_recommendations
 
 def filter_size(recommendations,sizes):
-    new_recommendations = {}
+    new_recommendations = []
     #get first size for now
-    for key, item in recommendations.items():
+    for item in recommendations:
         item_sizes = set(map(int,item['sizes']))
         #remove if not in sizes:
         for size in sizes:
             if size in item_sizes:
-                new_recommendations[str(key)+"{:03}".format(size)] = item 
-                new_recommendations[str(key)+"{:03}".format(size)]['size'] = size
+                item2 = copy.deepcopy(item)
+                item2['id'] = str(item['id'])+"{:03}".format(size)
+                new_recommendations.append(item2)
     return new_recommendations
 
 def cleanUp(item):
@@ -52,6 +54,8 @@ def cleanUp(item):
         del item['recommendations']
     if('recommendationUrls' in item):
        del item['recommendationUrls']
+    if('id' in item):
+        del item['id']
 
 @app.route('/recommend/<string:identitystr>', methods=['GET'])
 def recommend(identitystr):
@@ -68,11 +72,11 @@ def recommend(identitystr):
 
     pprint.pprint(currItem)
     recs=currItem['recommendations']
-    recommendations={}
+    recommendations=[]
     for r in recs:
-        if (len(recommendations) > max_recommendations):
-            continue 
-        recommendations[str(r)] = root.child(str(r)).get()
+        item = root.child(str(r)).get()
+        item['id'] = r
+        recommendations.append(item)
     #filter prices
     pricey = request.args.get('tooPricey') and request.args.get('tooPricey').lower()=='true'
     if pricey:
@@ -98,16 +102,24 @@ def recommend(identitystr):
 
     if tooBig and tooSmall and not tooPricey and not pricey and not color and not similar:
         return 'Error: must have at least one parameter set to true!'
-        
+
+    #selction only top
+    selection = recommendations[:max_recommendations]
+
+    results = {}
+    for s in selection:
+        ID = s['id']
+        results[ID] = s
+
     #include current info too
     currItem['size'] = size
-    recommendations['current'] = currItem
-
+    results['current'] = currItem
 
     #remove unneeded info for display
-    for key,item in recommendations.items():
+    for key,item in results.items():
         cleanUp(item)
-    return jsonify(recommendations)
+        
+    return jsonify(results)
 
 @app.route('/fitting', methods=['GET'])
 def get_fitting_items():
