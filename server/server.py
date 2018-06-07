@@ -169,3 +169,6 @@ def fulfill_item():
     #update fitting room with new data
     fitting_root.update({roomNumber:currItems});
     return 'Successfully fulfilled ' + itemID + ' for room ' + roomNumber
+
+if __name__ == "__main__":
+	app.run(debug=True,threaded=True)

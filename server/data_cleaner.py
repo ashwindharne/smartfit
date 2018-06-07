@@ -19,6 +19,7 @@ def get_url_mapper():
         num += 1
     return url_mapper
 
+
 #convert recommendationUrls to numbers
 def add_recommendation_ids(url_mapper):
     # get firebase database 
@@ -65,12 +66,39 @@ def inflate_recommendations(url_mapper):
         obj['recommendations'] = list(OrderedDict.fromkeys(recommendations_new))
     db.reference('women').child('denim_clean').set(data_dict)
 
+
+#Using https://www.vince.com/womenssizeguide.html#womensize for standardization into waist size
+#standardize sizes such as Italian, US, etc 
+def standardize_sizes(url_mapper):
+    # get firebase database 
+    data_dict = db.reference('women').child('denim_clean').get()
+    sizeConversions = {
+        'XXS':23,
+        'XS':25,
+        'S':27,
+        'M':29,
+        'L':30,
+        'XL':33,
+        'XXL':35
+    }
+    for obj in data_dict:
+        newSizes = []
+        for size in obj['sizes']:
+            if size in sizeConversions:
+                newSizes.append(sizeConversions[size])
+            else:
+                newSizes.append(size)
+        obj['sizes'] = newSizes
+    db.reference('women').child('denim_clean').set(data_dict)
+
+
 # ONLY DENIM FOR NOW 
 # assume all items are denim
 def clean_items_in_db():
     url_mapper = get_url_mapper()
     add_recommendation_ids(url_mapper)
     inflate_recommendations(url_mapper)
+    standardize_sizes(url_mapper)
 
 def main():
     clean_items_in_db()
