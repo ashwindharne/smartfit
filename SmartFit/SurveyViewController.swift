@@ -25,7 +25,7 @@ class SurveyViewController: UIViewController {
     var tooPriceyb = false
     var wrongColorb = false
     var showSimilarb = false
-    
+    var scriptUrl = String()
     
     @IBAction func buttonClicked(_ sender: UIButton)
     {
@@ -88,6 +88,7 @@ class SurveyViewController: UIViewController {
         DestViewController.tooPriceyb = tooPriceyb
         DestViewController.wrongColorb = wrongColorb
         DestViewController.showSimilarb = showSimilarb
+        DestViewController.scriptUrl = scriptUrl
     }
 
 
