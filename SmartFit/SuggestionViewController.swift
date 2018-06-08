@@ -67,9 +67,9 @@ class SuggestionViewController: UIViewController {
         ref = FIRDatabase.database().reference()
         let surveyvc = SurveyViewController()
         print("Here is the url: " + scriptUrl)
-        scriptUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/recommend/3025"
-        let urlWithParams = scriptUrl + "?id=\(current)" + "?tooBig=\(tooBigb)" + "?tooSmall=\(tooSmallb)" + "?tooPricey=\(tooPriceyb)" + "?wrongColor=\(wrongColorb)" + "?showSimilar=\(showSimilarb)"
-        let myUrl = NSURL(string: scriptUrl);
+        scriptUrl = "http://6a1cc336.ngrok.io/recommend/3025"
+        let urlWithParams = scriptUrl + "?tooBig=\(tooBigb)&" + "tooSmall=\(tooSmallb)&" + "tooPricey=\(tooPriceyb)&" + "wrongColor=\(wrongColorb)&" + "showSimilar=\(showSimilarb)"
+        let myUrl = NSURL(string: urlWithParams);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
     
@@ -86,7 +86,11 @@ class SuggestionViewController: UIViewController {
             // Print out response string
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             //print("responseString = \(responseString)")
-            
+            if (responseString! == "Error: Item cannot be both big and small"){
+                let alert = UIAlertController(title: "Item cannot be both too big and too small", message: "Please scan again", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             
             // Convert server json response to NSDictionary
             do {
@@ -128,7 +132,10 @@ class SuggestionViewController: UIViewController {
                                 //print("2nd " + self.brand)
                                 //print("2nd " + self.price)
                                 self.tags[counter].text = brand + "\nsize: " + size + "\n$" + price
-                                counter += 1
+                                if (counter < 5){
+                                    counter += 1
+                                }
+                                
                             }
                         }
                     }
