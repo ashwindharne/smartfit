@@ -1,4 +1,3 @@
-from server import app
 import unittest
 import requests
 import json
