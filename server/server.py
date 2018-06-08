@@ -64,12 +64,17 @@ def recommend(identitystr):
     #size is integrated as last three digits of ID
     #last three digits is size, beginning is ID
     #example: 1032
-    max_recommendations = 6
+    for char in identitystr:
+        if not char.isdigit():
+            return 'Error: Invalid item id'
 
-    ID, size = get_ID_and_size(identitystr)
+    max_recommendations = 6
+    try:
+        ID, size = get_ID_and_size(identitystr)
+    except ValueError:
+        return 'Error: Invalid item id'
     
     objects = root.get()
-
     currItem = objects[ID]
 
     if not currItem:
@@ -206,4 +211,4 @@ def fulfill_item():
     return 'Successfully fulfilled ' + itemID + ' for room ' + roomNumber
 
 if __name__ == "__main__":
-	app.run(debug=True,threaded=True)
+	app.run(host='0.0.0.0', port=5000, debug=True,threaded=True)
