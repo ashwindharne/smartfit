@@ -66,9 +66,10 @@ class SuggestionViewController: UIViewController {
         let ref: FIRDatabaseReference!
         ref = FIRDatabase.database().reference()
         let surveyvc = SurveyViewController()
-        print("Here is the url: " + scriptUrl)
-        scriptUrl = "http://6a1cc336.ngrok.io/recommend/3025"
+        //print("Here is the url: " + scriptUrl)
+        //scriptUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/recommend/"
         let urlWithParams = scriptUrl + "?tooBig=\(tooBigb)&" + "tooSmall=\(tooSmallb)&" + "tooPricey=\(tooPriceyb)&" + "wrongColor=\(wrongColorb)&" + "showSimilar=\(showSimilarb)"
+        print(urlWithParams)
         let myUrl = NSURL(string: urlWithParams);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -129,8 +130,6 @@ class SuggestionViewController: UIViewController {
                                 let heart = UIImage(named: "open-heart.png") as UIImage?
                                 self.buttons[counter].setImage(heart, for: .normal)
                                 
-                                //print("2nd " + self.brand)
-                                //print("2nd " + self.price)
                                 self.tags[counter].text = brand + "\nsize: " + size + "\n$" + price
                                 if (counter < 5){
                                     counter += 1
@@ -152,16 +151,14 @@ class SuggestionViewController: UIViewController {
         
         
         
-        /*labeltext = "Query items that are " + (tooBigb ? "smaller in size " : "") + (tooSmallb ? "larger in size " : "") + (tooPriceyb ? "cheaper " : "") + (wrongColorb ? "different colors " : "") + (showSimilarb ? "similar in terms of attribute values" : "") + "."
-        self.label.text = labeltext*/
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     @IBAction func B1(_ sender: Any) {
         let heart = UIImage(named: "closed-heart.png") as UIImage?
         b1.setImage(heart, for: .normal)
-        let fitUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[0]
+        let fitUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[0]
+        print(fitUrl)
         let myUrl = NSURL(string: fitUrl);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -180,7 +177,11 @@ class SuggestionViewController: UIViewController {
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             print("responseString = \(responseString)")
             
-            
+            if (responseString! as String == "Error: " + self.itemNums[0] + " has already been requested!" ){
+                let alert = UIAlertController(title: "Item has already been requested", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             // Convert server json response to NSDictionary
             do {
                 
@@ -195,8 +196,7 @@ class SuggestionViewController: UIViewController {
     @IBAction func B2(_ sender: Any) {
         let heart = UIImage(named: "closed-heart.png") as UIImage?
         b2.setImage(heart, for: .normal)
-        
-        let fitUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[1]
+        let fitUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[1]
         let myUrl = NSURL(string: fitUrl);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -215,6 +215,11 @@ class SuggestionViewController: UIViewController {
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             print("responseString = \(responseString)")
             
+            if (responseString! as String == "Error: " + self.itemNums[1] + " has already been requested!" ){
+                let alert = UIAlertController(title: "Item has already been requested", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             
             // Convert server json response to NSDictionary
             do {
@@ -231,7 +236,7 @@ class SuggestionViewController: UIViewController {
         let heart = UIImage(named: "closed-heart.png") as UIImage?
         b3.setImage(heart, for: .normal)
         
-        let fitUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[2]
+        let fitUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[2]
         let myUrl = NSURL(string: fitUrl);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -250,6 +255,11 @@ class SuggestionViewController: UIViewController {
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             print("responseString = \(responseString)")
             
+            if (responseString! as String == "Error: " + self.itemNums[2] + " has already been requested!" ){
+                let alert = UIAlertController(title: "Item has already been requested", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             
             // Convert server json response to NSDictionary
             do {
@@ -266,7 +276,7 @@ class SuggestionViewController: UIViewController {
         let heart = UIImage(named: "closed-heart.png") as UIImage?
         b4.setImage(heart, for: .normal)
         
-        let fitUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[3]
+        let fitUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[3]
         let myUrl = NSURL(string: fitUrl);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -285,6 +295,11 @@ class SuggestionViewController: UIViewController {
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             print("responseString = \(responseString)")
             
+            if (responseString! as String == "Error: " + self.itemNums[3] + " has already been requested!" ){
+                let alert = UIAlertController(title: "Item has already been requested", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             
             // Convert server json response to NSDictionary
             do {
@@ -301,7 +316,7 @@ class SuggestionViewController: UIViewController {
         let heart = UIImage(named: "closed-heart.png") as UIImage?
         b5.setImage(heart, for: .normal)
         
-        let fitUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[4]
+        let fitUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[4]
         let myUrl = NSURL(string: fitUrl);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -320,7 +335,11 @@ class SuggestionViewController: UIViewController {
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             print("responseString = \(responseString)")
             
-            
+            if (responseString! as String == "Error: " + self.itemNums[4] + " has already been requested!" ){
+                let alert = UIAlertController(title: "Item has already been requested", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             // Convert server json response to NSDictionary
             do {
                 
@@ -336,7 +355,7 @@ class SuggestionViewController: UIViewController {
         let heart = UIImage(named: "closed-heart.png") as UIImage?
         b6.setImage(heart, for: .normal)
         
-        let fitUrl = "http://ec2-52-53-202-97.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[5]
+        let fitUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/fitting/request_item?roomNumber=1&itemID=" + itemNums[5]
         let myUrl = NSURL(string: fitUrl);
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "GET"
@@ -355,6 +374,11 @@ class SuggestionViewController: UIViewController {
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
             print("responseString = \(responseString)")
             
+            if (responseString! as String == "Error: " + self.itemNums[5] + " has already been requested!" ){
+                let alert = UIAlertController(title: "Item has already been requested", message: "", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
             
             // Convert server json response to NSDictionary
             do {
