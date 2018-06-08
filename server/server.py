@@ -74,8 +74,11 @@ def recommend(identitystr):
 
     if not currItem:
         return 'Error: Invalid item id'
+        
+    recs = [] 
+    if('recommendations' in currItem):
+        recs = currItem['recommendations']
 
-    recs = currItem['recommendations']
     recommendations=[]
 
     for r in recs:
