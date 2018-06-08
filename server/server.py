@@ -69,11 +69,12 @@ def recommend(identitystr):
             return 'Error: Invalid item id'
 
     max_recommendations = 6
-
-    ID, size = get_ID_and_size(identitystr)
+    try:
+        ID, size = get_ID_and_size(identitystr)
+    except ValueError:
+        return 'Error: Invalid item id'
     
     objects = root.get()
-
     currItem = objects[ID]
 
     if not currItem:
