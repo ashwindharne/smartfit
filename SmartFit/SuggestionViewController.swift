@@ -66,8 +66,8 @@ class SuggestionViewController: UIViewController {
         let ref: FIRDatabaseReference!
         ref = FIRDatabase.database().reference()
         let surveyvc = SurveyViewController()
-        //print("Here is the url: " + scriptUrl)
-        //scriptUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/recommend/"
+        
+        //scriptUrl = "http://ec2-52-53-219-19.us-west-1.compute.amazonaws.com/recommend/blahblah"
         let urlWithParams = scriptUrl + "?tooBig=\(tooBigb)&" + "tooSmall=\(tooSmallb)&" + "tooPricey=\(tooPriceyb)&" + "wrongColor=\(wrongColorb)&" + "showSimilar=\(showSimilarb)"
         print(urlWithParams)
         let myUrl = NSURL(string: urlWithParams);
@@ -86,7 +86,14 @@ class SuggestionViewController: UIViewController {
         
             // Print out response string
             let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
-            //print("responseString = \(responseString)")
+            print("responseString = \(responseString)")
+            
+            if (responseString! == "Error: Invalid item id") {
+                let alert = UIAlertController(title: "This item does not exists", message: "Please scan again", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
+            
             if (responseString! == "Error: Item cannot be both big and small"){
                 let alert = UIAlertController(title: "Item cannot be both too big and too small", message: "Please scan again", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.default, handler: nil))
@@ -103,7 +110,7 @@ class SuggestionViewController: UIViewController {
                     var counter = 0;
                     for (key, value) in convertedJsonIntoDict{
                         
-                        print(value)
+                        //print(value)
                         let brand = value["brand"]! as! String
                         let price = value["price"]! as! String
                         let size = String(describing: value["size"]!)
