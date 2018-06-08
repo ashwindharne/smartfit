@@ -18,7 +18,7 @@ root = db.reference('women').child('denim_clean')
 fitting_root = db.reference('fitting')
 
 def get_ID_and_size(identitystr):
-    ID = identitystr[:-3]
+    ID = int(identitystr[:-3])
     size = int(identitystr[-3:])
     return ID, size
 
@@ -67,16 +67,20 @@ def recommend(identitystr):
     max_recommendations = 6
 
     ID, size = get_ID_and_size(identitystr)
-    currItem = root.child(ID).get()
+    
+    objects = root.get()
+
+    currItem = objects[ID]
+
     if not currItem:
         return 'Error: Invalid item id'
 
-    recs=currItem['recommendations']
+    recs = currItem['recommendations']
     recommendations=[]
+
     for r in recs:
-        item = root.child(str(r)).get()
-        item['id'] = r
-        recommendations.append(item)
+        recommendations.append(objects[r])
+
     #filter prices
     pricey = request.args.get('tooPricey') and request.args.get('tooPricey').lower()=='true'
     if pricey:
@@ -126,14 +130,22 @@ def get_fitting_items():
     global fitting_root, root
     max_rooms = 9
     data_collected = {}
+
+    objects = root.get()
+    fitting_room = fitting_root.get()
+
     for room_number in range(1,max_rooms+1):
-        room = fitting_root.child(str(room_number)).get()
+        # too long 
+        if(room_number >= len(fitting_room)):
+            break 
+        room = fitting_room[room_number]
+
         if(room == None):
             continue 
         room_data = {}
         for identitystr in room: 
             ID, size = get_ID_and_size(identitystr)
-            item = root.child(ID).get()
+            item = objects[ID]
             item['size'] = size
             cleanUp(item)
             room_data[identitystr] = item
@@ -147,10 +159,17 @@ def request_item():
     global fitting_root
     roomNumber = request.args.get('roomNumber')  
     itemID = request.args.get('itemID')  
+    #confirm parameters are reasonable
     if roomNumber == None:
         return 'Error: no room number parameter found!'
     if itemID == None:
         return 'Error: no itemID parameter found!'
+    #confirm that request is an integer
+    try:
+        int(itemID)
+    except:
+        return 'Error: itemID must be an integer!'
+
     currItems = fitting_root.child(roomNumber).get();
     if currItems == None:
         currItems = []
@@ -167,6 +186,7 @@ def fulfill_item():
     global fitting_root
     roomNumber = request.args.get('roomNumber')  
     itemID = request.args.get('itemID')  
+    #confirm parameters are reasonable
     if roomNumber == None:
         return 'Error: no room number parameter found!'
     if itemID == None:

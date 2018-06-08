@@ -10,20 +10,24 @@ firebase_admin.initialize_app(cred,options={
     'databaseURL': 'https://smartfit-3ad0b.firebaseio.com/'
 })
 
+#maps objects to ids
 def get_url_mapper():
-    data_dict = db.reference('women').child('denim_clean').get()
+    data_dict = db.reference('women').child('denim').get()
     url_mapper = {}
     num = 0
     for obj in data_dict:
         url_mapper[obj['url']] = num
+        obj['id'] = num
         num += 1
+
+    db.reference('women').child('denim_clean').set(data_dict)
     return url_mapper
 
 
 #convert recommendationUrls to numbers
 def add_recommendation_ids(url_mapper):
     # get firebase database 
-    data_dict = db.reference('women').child('denim').get()
+    data_dict = db.reference('women').child('denim_clean').get()
 
     for obj in data_dict:
         # some don't have any recommendationUrls 
@@ -68,7 +72,7 @@ def inflate_recommendations(url_mapper):
 
 #Using https://www.vince.com/womenssizeguide.html#womensize for standardization into waist size
 #standardize sizes such as Italian, US, etc 
-def standardize_sizes(url_mapper):
+def standardize_sizes():
     # get firebase database 
     data_dict = db.reference('women').child('denim_clean').get()
     sizeConversions = {
@@ -96,6 +100,17 @@ def standardize_sizes(url_mapper):
         obj['sizes'] = newSizes
     db.reference('women').child('denim_clean').set(data_dict)
 
+# convert list to a dictionary
+# for easier access
+def convert_list_to_dict():
+    data_list = db.reference('women').child('denim_clean').get()
+    data_dict = {}
+    num = 0
+    for obj in data_list:
+        data_dict[num] = obj
+        num += 1
+
+    db.reference('women').child('denim_clean').set(data_dict)
 
 # ONLY DENIM FOR NOW 
 # assume all items are denim
@@ -103,7 +118,8 @@ def clean_items_in_db():
     url_mapper = get_url_mapper()
     add_recommendation_ids(url_mapper)
     inflate_recommendations(url_mapper)
-    standardize_sizes(url_mapper)
+    standardize_sizes()
+    convert_list_to_dict()
 
 def main():
     clean_items_in_db()
