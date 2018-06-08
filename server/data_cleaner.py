@@ -59,9 +59,8 @@ def inflate_recommendations(url_mapper):
             if('recommendations' not in item_other):
                 continue
             for rec in item_other['recommendations']:
-                #if ID of rec's rec is not itself
-                if(rec!=str(url_mapper[obj['url']])):
-                    recommendations_new.append(rec)
+                #recommending self is allowed
+                recommendations_new.append(rec)
         #use set to avoid dups, convert to list to make it serializable
         obj['recommendations'] = list(OrderedDict.fromkeys(recommendations_new))
     db.reference('women').child('denim_clean').set(data_dict)
@@ -87,7 +86,13 @@ def standardize_sizes(url_mapper):
             if size in sizeConversions:
                 newSizes.append(sizeConversions[size])
             else:
-                newSizes.append(size)
+                try: 
+                    #if size is int, just append it
+                    int(size)
+                    newSizes.append(size)
+                except:
+                    #if size is unrecognizable, pretend it's 30 
+                    newSizes.append('30')
         obj['sizes'] = newSizes
     db.reference('women').child('denim_clean').set(data_dict)
 

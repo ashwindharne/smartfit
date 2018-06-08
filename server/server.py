@@ -41,6 +41,7 @@ def filter_size(recommendations,sizes):
         for size in sizes:
             if size in item_sizes:
                 item2 = copy.deepcopy(item)
+                item2['size'] = size
                 item2['id'] = str(item['id'])+"{:03}".format(size)
                 new_recommendations.append(item2)
     return new_recommendations
@@ -70,7 +71,6 @@ def recommend(identitystr):
     if not currItem:
         return 'Error: Invalid item id'
 
-    pprint.pprint(currItem)
     recs=currItem['recommendations']
     recommendations=[]
     for r in recs:
